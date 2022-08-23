@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Exercicios1.Entities.Enums
 {
-    enum WokerLevel : int
+    public enum WorkerLevel : int
     {
         Junior = 0,
-        Plenor = 1,
+        MidLevel = 1,
         Senior = 2
     }
 }

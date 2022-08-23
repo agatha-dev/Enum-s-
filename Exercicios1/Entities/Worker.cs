@@ -10,20 +10,21 @@ namespace Exercicios1.Entities
     public class Worker
     {
         public string Name { get; set; }
-        public WokerLevel Level { get; set; }
-        public Double BaseSalary { get; set; }
-        public Department department { get; set; }
-        public List<HourContract> Contracts { get; set; } = new List<HourContract>();
+        public WorkerLevel Level { get; set; }
+        public double BaseSalary { get; set; }
+        public Department Department { get; set; }
+        public List<HourContract> Contracts { get; private set; } = new List<HourContract>();
+        public Worker()
+        {
+        }
 
-        public Worker(string name, WokerLevel level, double baseSalary)
+        public Worker(string name, WorkerLevel level, double baseSalary, Department department)
         {
             Name = name;
             Level = level;
             BaseSalary = baseSalary;
-        }
+            Department = department;
 
-        public Worker()
-        {
         }
 
         //Adicione contrato 
