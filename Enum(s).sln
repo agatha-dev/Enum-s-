@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicios1", "Exercicios1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio2", "Exercicio2\Exercicio2.csproj", "{3DF500DE-03E8-403D-A470-85BD26305F11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios", "Exercicios\Exercicios.csproj", "{9065F1F8-1E8A-4162-AE17-7DBA775BF608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicios", "Exercicios\Exercicios.csproj", "{9065F1F8-1E8A-4162-AE17-7DBA775BF608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herança", "Herança\Herança.csproj", "{F06F3B93-6915-4CCF-B95E-BE5AA0FD1689}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Herança", "Herança\Herança.csproj", "{F06F3B93-6915-4CCF-B95E-BE5AA0FD1689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

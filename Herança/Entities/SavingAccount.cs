@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Herança.Entities
 {
-    public class SavingAccount : Account
+    sealed public class SavingAccount : Account
     {
         public double InterestRate { get; set; }
         public SavingAccount()
@@ -22,6 +22,11 @@ namespace Herança.Entities
         public void UpdateBalace()
         {
             Balance += Balance * InterestRate;
+        }
+        public sealed override void WithDraw(double amount)
+        {
+           base.WithDraw(amount);
+            Balance -= 2.0;
         }
     }
 }
